@@ -1,0 +1,9 @@
+/*
+1.Variable
+2.Array
+3.Conditional
+4.loop
+5.function
+6.object
+7.let-conts
+*/ 
