@@ -32,6 +32,25 @@ function cheapestPhone (phones){
        y:highestcam
     } ;
 }
+function onlypost(ara){
+    const newara = [];
+    for(let i=0;i<ara.length;i++)
+    {
+        let idx = ara[i];
+        
+        if(idx>0)
+        {
+            
+           newara.push(idx)
+            
+        }
+    }
+    return newara
+}
+var ara = [1,2,4,-10,20,-60,100,-200,500];
+var numpos = onlypost(ara);
+
+console.log(numpos);
 
 const selectedPhone = cheapestPhone(phones);
 //console.log(selectedPhone);
